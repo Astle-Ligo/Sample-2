@@ -1,12 +1,14 @@
-body{
+html{
     margin: 0;
     padding: 0;
     width: 100vw;
 }
-.header{
+#header{
     background-color: #4070f4;
     width: 100vw;
     height: 15vh;
+    position: fixed;
+    z-index: 9999;
 }
 .btn{
     color:white;
@@ -24,7 +26,7 @@ body{
     color: #ffffff;
 }
 .card{
-    background:hsl(224, 89%, 60%,0.95);
+    background-color: #4070f4;
     width: 90%;
     border: none;
     border-radius: 0%;
@@ -33,7 +35,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 0%;
-    
+    z-index: 1;
 }
 .list ul{
     padding: 0%;
@@ -67,7 +69,30 @@ body{
 h1{
     font-size: 4rem;
 }
-.element-1{
+.element{
     width: 100vw;
     justify-content: center;
+    opacity: 1;
+    padding-top: 10vh;
 }
+#element-1{
+    padding-top: 15vh;
+}
+#top{
+    height: 3rem;
+    aspect-ratio: 1;
+    background-color: #4070f4;
+    font-size: 2rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: fixed;
+    bottom:2rem;
+    right:2rem;
+    display:none;
+}
+#main-content{
+    margin: 0;
+    padding: 0;
+}
+
