@@ -70,10 +70,9 @@ h1{
     font-size: 4rem;
 }
 .element{
-    width: 100vw;
+    width: 100%;
     justify-content: center;
-    opacity: 1;
-    padding-top: 10vh;
+    padding-top: 5vh;
 }
 #element-1{
     padding-top: 15vh;
@@ -82,14 +81,15 @@ h1{
     height: 3rem;
     aspect-ratio: 1;
     background-color: #4070f4;
-    font-size: 2rem;
-    display: flex;
-    justify-content:center;
-    align-items: center;
     position: fixed;
     bottom:2rem;
     right:2rem;
-    display:none;
+    color: #ffffff;
+    display: block;
+    border-radius: 25%;
+}
+.top{
+    font-size: 3rem;
 }
 #main-content{
     margin: 0;

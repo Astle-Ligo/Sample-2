@@ -13,13 +13,13 @@
         <div id="header">
             <div class="sidebar">
                 <div class="button">
-                     <button class="btn" type="button" onclick="bg()" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                     <button class="btn" id="btn" type="button" onclick="bg()" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
                          <span><ion-icon name="menu-outline"></ion-icon></span>
                     </button>  
                 </div>
                 <div class="list">
                     <div class="collapse collapse-horizontal" id="collapseWidthExample">
-                         <div class="card card-body">
+                         <div class="card card-body" id="card">
                            <ul>
                             <a href="#element-1"><li>Element 1</li></a>
                             <a href="#element-2"><li>Element 2</li></a>
@@ -53,7 +53,7 @@
                 </div>
                 </div>
     </section>
-    <a href="#element-1"><div id="top">🔝</div></a>
+    <a href="#element-1"><div id="top"><ion-icon name="chevron-up-circle-outline" class="top"></ion-icon></div></a>
     <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
