@@ -85,7 +85,7 @@ h1{
     bottom:2rem;
     right:2rem;
     color: #ffffff;
-    display: block;
+    display:none;
     border-radius: 25%;
 }
 .top{
